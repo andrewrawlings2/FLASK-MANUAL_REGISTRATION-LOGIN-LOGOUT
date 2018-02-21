@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+<div class="text-center">
+	<h2>Successfully Logged Out</h2>
+	<a href="{{ url_for('login') }}">Go To Login</a><br>
+	<h4>New User?</h4><a href="{{ url_for('register') }}">Register</a>
+</div>
+
+{% endblock %}
